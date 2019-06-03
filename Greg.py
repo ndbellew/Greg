@@ -24,7 +24,8 @@ async def eight_ball(context):
     'I talked to some guy I found on Tinder, asked him that question, and he said, "Naw Bro."',
     'You are asking me a question, and boy howdy I have no idea.',
     'Clyde from South Park would have a better idea.',
-    'Oof thats a yes, thanks Obama.'
+    'Oof thats a yes, thanks Obama.',
+    'OMEGALOL that is the stupidest shit i have ever heard, but.....\nyes'
     ]
     await client.say(random.choice(possible_responses)+", "+context.message.author.mention)
 
